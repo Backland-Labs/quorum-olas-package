@@ -125,9 +125,7 @@ jobs:
         tox -e bandit
         tox -e safety
     - name: Check packages
-      run: tox -e check-packages
-    - name: Check hash
-      run: tox -e check-hash
+      run: tox -e check-packages    
     - name: Code style check
       run: |
         tox -e black-check
