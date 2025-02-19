@@ -125,7 +125,9 @@ jobs:
         tox -e bandit
         tox -e safety
     - name: Check packages
-      run: tox -e check-packages   
+      run: tox -e check-packages
+    - name: Check hash
+      run: tox -e check-hash
     - name: Code style check
       run: |
         tox -e black-check
@@ -138,7 +140,14 @@ jobs:
     - name: Pylint
       run: tox -e pylint
     - name: Check spelling
-      run: tox -e spell-check    
+      run: tox -e spell-check
+    - name: AbciApp consistency checks
+      run: |
+        tox -e check-abci-docstrings
+        tox -e check-abciapp-specs
+        tox -e check-handlers
+        tox -e check-dialogues
+        tox -e analyse-services
 
   scan:
     name: gitleaks
