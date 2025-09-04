@@ -1,12 +1,12 @@
-agent_name: olas_hello_world
-author: valory
+agent_name: quorum
+author: backlandlabs
 version: 0.1.0
 license: Apache-2.0
-description: This is my awesome olas hello world agent.
+description: Quorum-based consensus agent for decentralized applications.
 aea_version: '>=1.0.0, <2.0.0'
 fingerprint:
-  README.md: bafybeifzdekpjcas6egpwxj24tir5ozzffmkq5ecyi6rw3i6fqfd763etu
-  __init__.py: bafybeiehvk4wlv2bcbplwc66owg4qdnisiihijq7iegcmjjxtz3dulnrgm
+  README.md: bafybeida7kayw4iuc4vxqxnjyononicx4fuuseqyu3koxsb7o2hwbtnojy
+  __init__.py: bafybeia4ix5kiswzdgvhwglybziafnkid6njzkdm7pmpazzxlncsyndptm
 fingerprint_ignore_patterns: []
 connections: []
 contracts: []

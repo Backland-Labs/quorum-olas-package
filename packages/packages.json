@@ -1,4 +1,7 @@
 {
-    "dev": {},
+    "dev": {
+        "agent/backlandlabs/quorum/0.1.0": "bafybeie65whvrfjdobhuqadutwpcwx22bnpty2yveu6j4x2dcithfhlnea",
+        "service/backlandlabs/quorum/0.1.0": "bafybeigi2ca7ditqjszbkjnnrkkqeijqpst6sfoitxng3xw27sqpzc3aly"
+    },
     "third_party": {}
 }

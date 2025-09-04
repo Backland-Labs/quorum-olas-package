@@ -1,13 +1,13 @@
-name: olas_hello_world
-author: valory
+name: quorum
+author: backlandlabs
 version: 0.1.0
-description: This is my awesome hello world service.
+description: Quorum-based consensus service for decentralized applications.
 aea_version: '>=1.0.0, <2.0.0'
 license: Apache-2.0
 fingerprint:
-  README.md: bafybeiapubcoersqnsnh3acia5hd7otzt7kjxekr6gkbrlumv6tkajl6jm
+  README.md: bafybeigkh3bwwjzgbl3jlcbovrf67ikisndygihsutgqlijhgie3z44ao4
 fingerprint_ignore_patterns: []
-agent: valory/olas_hello_world:0.1.0:bafybeigh54vwypnmvrcyphwhzshr6ubunrbggwm5dekdbohiww6on5opsq
+agent: backlandlabs/quorum:0.1.0:bafybeie65whvrfjdobhuqadutwpcwx22bnpty2yveu6j4x2dcithfhlnea
 number_of_agents: 1
 deployment: {}
 ---
