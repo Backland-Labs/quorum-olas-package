@@ -13,9 +13,10 @@ contracts: []
 protocols: []
 skills: []
 customs: []
-default_ledger: ethereum
+default_ledger: base
 required_ledgers:
 - ethereum
+- base
 default_routing: {}
 connection_private_key_paths: {}
 private_key_paths: {}
@@ -26,5 +27,7 @@ dependencies:
   open-aea-ledger-cosmos:
     version: ==1.63.0
   open-aea-ledger-ethereum:
+    version: ==1.63.0
+  open-aea-ledger-base:
     version: ==1.63.0
 default_connection: null
